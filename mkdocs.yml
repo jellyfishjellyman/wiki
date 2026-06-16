@@ -34,6 +34,53 @@ nav:
   - 云:
       - clouds/index.md
       - 云的类型: clouds/cloud-types.md
+      - 中国云图:
+          - clouds/china-cloud-atlas/index.md
+          - 前置页与目录: clouds/china-cloud-atlas/front-matter.md
+          - 文字说明:
+              - clouds/china-cloud-atlas/text/index.md
+              - 云的分类: clouds/china-cloud-atlas/text/cloud-classification.md
+              - 云的特征: clouds/china-cloud-atlas/text/cloud-features.md
+              - 云的编码: clouds/china-cloud-atlas/text/cloud-coding.md
+          - 图版条目:
+              - clouds/china-cloud-atlas/plates/index.md
+              - 低云图版：积云: clouds/china-cloud-atlas/plates/low-clouds-cumulus.md
+              - 低云图版：浓积云与积雨云: clouds/china-cloud-atlas/plates/low-clouds-cumulonimbus.md
+              - 低云图版：积雨云降水与云砧: clouds/china-cloud-atlas/plates/low-clouds-cumulonimbus-precipitation.md
+              - 低云图版：层积云: clouds/china-cloud-atlas/plates/low-clouds-stratocumulus.md
+              - 低云图版：层云与雨层云: clouds/china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md
+              - 中云图版：高层云: clouds/china-cloud-atlas/plates/mid-clouds-altostratus.md
+              - 中云图版：高积云: clouds/china-cloud-atlas/plates/mid-clouds-altocumulus.md
+              - 高云图版：卷云: clouds/china-cloud-atlas/plates/high-clouds-cirrus.md
+              - 高云图版：卷层云与卷积云: clouds/china-cloud-atlas/plates/high-clouds-cirrostratus-cirrocumulus.md
+              - 天气现象图版：雾: clouds/china-cloud-atlas/plates/weather-fog.md
+              - 天气现象图版：光象: clouds/china-cloud-atlas/plates/weather-optical-phenomena.md
+              - 天气现象图版：闪电: clouds/china-cloud-atlas/plates/weather-lightning.md
+              - 天气现象图版：降水粒子: clouds/china-cloud-atlas/plates/weather-precipitation-particles.md
+              - 天气现象图版：雾凇、霜和积冰: clouds/china-cloud-atlas/plates/weather-frost-icing.md
+              - 天气现象图版：龙卷、尘卷风和沙尘: clouds/china-cloud-atlas/plates/weather-tornado-dust.md
+              - 飞机上观测云图: clouds/china-cloud-atlas/plates/aircraft-observed-clouds.md
+              - 地形云图版: clouds/china-cloud-atlas/plates/terrain-clouds.md
+              - 补充云和天气现象个例: clouds/china-cloud-atlas/plates/supplementary-cloud-weather-examples.md
+          - 结构化导览: clouds/china-cloud-atlas/structure.md
+          - 使用说明、参考文献和索引: clouds/china-cloud-atlas/usage-references-index.md
+          - 图版清单: clouds/china-cloud-atlas/plate-catalog.md
+          - 第 001-020 页: clouds/china-cloud-atlas/pages-001-020.md
+          - 第 021-040 页: clouds/china-cloud-atlas/pages-021-040.md
+          - 第 041-060 页: clouds/china-cloud-atlas/pages-041-060.md
+          - 第 061-080 页: clouds/china-cloud-atlas/pages-061-080.md
+          - 第 081-100 页: clouds/china-cloud-atlas/pages-081-100.md
+          - 第 101-120 页: clouds/china-cloud-atlas/pages-101-120.md
+          - 第 121-140 页: clouds/china-cloud-atlas/pages-121-140.md
+          - 第 141-160 页: clouds/china-cloud-atlas/pages-141-160.md
+          - 第 161-180 页: clouds/china-cloud-atlas/pages-161-180.md
+          - 第 181-200 页: clouds/china-cloud-atlas/pages-181-200.md
+          - 第 201-220 页: clouds/china-cloud-atlas/pages-201-220.md
+          - 第 221-240 页: clouds/china-cloud-atlas/pages-221-240.md
+          - 第 241-260 页: clouds/china-cloud-atlas/pages-241-260.md
+          - 第 261-280 页: clouds/china-cloud-atlas/pages-261-280.md
+          - 第 281-300 页: clouds/china-cloud-atlas/pages-281-300.md
+          - 第 301-314 页: clouds/china-cloud-atlas/pages-301-314.md
   - 水母:
       - jellyfish/index.md
       - 海月水母: jellyfish/moon-jellyfish.md
@@ -58,6 +105,8 @@ plugins:
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_git_follow: false
+      enable_parallel_processing: false
       fallback_to_build_date: true
       type: date
   - minify:

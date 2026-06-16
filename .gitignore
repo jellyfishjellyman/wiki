@@ -1,5 +1,8 @@
 site/
 .cache/
+tmp/
+cloud/
+docs/assets/images/clouds/china-cloud-atlas/*.png
 __pycache__/
 *.py[cod]
 .venv/
