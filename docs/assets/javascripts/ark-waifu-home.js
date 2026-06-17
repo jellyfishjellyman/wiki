@@ -11,7 +11,8 @@
   script.dataset.gwbArkWaifu = "true";
   script.dataset.registryBase = "https://cdn.jsdelivr.net/npm/ark-waifu@1.0.1/dist/registry/";
   script.dataset.model = "models-4134-cetsyr-epoque-50-build-char-4134-cetsyr-epoque-50";
-  script.dataset.cdn = "osyb";
+  script.dataset.cdn = "jsdelivr";
+  script.dataset.assetBaseUrl = "https://cdn.jsdelivr.net/gh/isHarryh/Ark-Models@main";
   script.dataset.width = "280";
   script.dataset.height = "420";
   script.dataset.zIndex = "4";
