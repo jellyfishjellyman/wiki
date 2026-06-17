@@ -91,6 +91,33 @@
     margin-top: 1rem;
   }
 
+  .home-search {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.7rem;
+    margin-top: 1.35rem;
+    padding: 0.45rem 1rem;
+    border: 1px solid rgba(56, 138, 158, 0.35);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.68);
+    color: var(--md-primary-fg-color);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 14px 34px rgba(54, 104, 118, 0.12);
+  }
+
+  .home-search:hover,
+  .home-search:focus-visible {
+    border-color: rgba(41, 137, 160, 0.62);
+    outline: none;
+  }
+
+  [data-md-color-scheme="slate"] .home-search {
+    background: rgba(255, 255, 255, 0.08);
+    color: #9bd6df;
+  }
+
   .home-links a {
     display: inline-flex;
     align-items: center;
@@ -119,6 +146,7 @@
 <section class="home-hero">
   <h2>云在高处成形，水母在海里发光。</h2>
   <p>这里现在只收集两类温柔又复杂的对象：天空中的云，海水里的水母。一个记录气象、形态与观测；一个整理物种、结构与水族馆笔记。</p>
+  <button class="home-search" type="button" onclick="document.querySelector('.md-search__input')?.focus()">搜索整个 Wiki</button>
 
   <div class="home-symbols">
     <a class="home-card" href="clouds/index.md">
