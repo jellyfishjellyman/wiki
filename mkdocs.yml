@@ -33,6 +33,7 @@ nav:
   - 首页: index.md
   - 云知识 Wiki:
       - clouds/index.md
+      - 随机云图: clouds/random-cloud.md
       - 云的基础概念: clouds/basics.md
       - 云的分类体系: clouds/classification.md
       - 低云: clouds/low-clouds.md
@@ -121,6 +122,10 @@ markdown_extensions:
 
 extra_javascript:
   - assets/javascripts/lazy-images.js
+  - assets/javascripts/random-cloud.js
+
+extra_css:
+  - assets/stylesheets/wiki-polish.css
 
 plugins:
   - search:

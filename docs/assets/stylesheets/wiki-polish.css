@@ -1,0 +1,308 @@
+:root {
+  --gwb-ink: #17222b;
+  --gwb-muted: #667684;
+  --gwb-line: rgba(31, 56, 72, 0.14);
+  --gwb-surface: rgba(255, 255, 255, 0.78);
+  --gwb-surface-strong: rgba(255, 255, 255, 0.94);
+  --gwb-accent: #148b9f;
+  --gwb-accent-2: #d99a2b;
+  --gwb-shadow: 0 24px 80px rgba(20, 42, 60, 0.14);
+}
+
+[data-md-color-scheme="slate"] {
+  --gwb-ink: #eef7fb;
+  --gwb-muted: #abc0cc;
+  --gwb-line: rgba(219, 242, 248, 0.16);
+  --gwb-surface: rgba(13, 28, 43, 0.72);
+  --gwb-surface-strong: rgba(17, 34, 50, 0.94);
+  --gwb-accent: #65c7d7;
+  --gwb-accent-2: #efb861;
+  --gwb-shadow: 0 24px 90px rgba(0, 0, 0, 0.28);
+}
+
+body {
+  background:
+    radial-gradient(circle at 8% 0%, rgba(20, 139, 159, 0.10), transparent 28rem),
+    linear-gradient(180deg, rgba(236, 249, 250, 0.68), transparent 24rem);
+}
+
+[data-md-color-scheme="slate"] body {
+  background:
+    radial-gradient(circle at 8% 0%, rgba(72, 184, 204, 0.12), transparent 30rem),
+    linear-gradient(180deg, rgba(8, 20, 34, 0.82), rgba(9, 16, 27, 1) 32rem);
+}
+
+.md-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: none;
+  backdrop-filter: blur(18px);
+}
+
+.md-tabs {
+  border-bottom: 1px solid var(--gwb-line);
+  background: color-mix(in srgb, var(--md-default-bg-color) 78%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.md-main__inner {
+  margin-top: 1.4rem;
+}
+
+.md-content__inner {
+  padding-bottom: 4rem;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  letter-spacing: 0;
+}
+
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 16px 45px rgba(26, 51, 68, 0.08);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.md-typeset img {
+  border-radius: 8px;
+}
+
+.random-cloud-page {
+  margin: -1.4rem calc(50% - 50vw) 0;
+  padding: clamp(1.2rem, 3vw, 2.8rem) clamp(1rem, 5vw, 4.5rem) 4rem;
+  color: var(--gwb-ink);
+}
+
+.random-cloud-hero,
+.random-cloud-viewer {
+  max-width: 76rem;
+  margin: 0 auto;
+}
+
+.random-cloud-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1.4rem;
+  min-height: 15rem;
+  padding: clamp(1.2rem, 4vw, 3rem) 0;
+}
+
+.random-cloud-kicker {
+  margin: 0 0 0.45rem;
+  color: var(--gwb-accent);
+  font-weight: 700;
+}
+
+.random-cloud-copy h2 {
+  max-width: 9em;
+  margin: 0;
+  color: var(--gwb-ink);
+  font-size: clamp(2.15rem, 5vw, 5rem);
+  line-height: 1.05;
+}
+
+.random-cloud-copy > p:last-of-type {
+  max-width: 38rem;
+  margin: 1rem 0 0;
+  color: var(--gwb-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.random-cloud-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.35rem;
+}
+
+.random-cloud-button,
+.random-cloud-link,
+.random-cloud-source {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.7rem;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.random-cloud-button {
+  border: 0;
+  background: var(--gwb-accent);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 14px 34px rgba(20, 139, 159, 0.24);
+}
+
+.random-cloud-button:hover {
+  background: color-mix(in srgb, var(--gwb-accent) 82%, #000);
+}
+
+.random-cloud-link,
+.random-cloud-source {
+  border: 1px solid var(--gwb-line);
+  background: var(--gwb-surface);
+  color: var(--gwb-ink);
+}
+
+.random-cloud-stat {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 13rem;
+  padding: 1rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 8px;
+  background: var(--gwb-surface);
+}
+
+.random-cloud-stat span {
+  color: var(--gwb-muted);
+  font-size: 0.85rem;
+}
+
+.random-cloud-stat strong {
+  color: var(--gwb-accent-2);
+  font-size: 1.35rem;
+}
+
+.random-cloud-viewer {
+  display: grid;
+  grid-template-columns: minmax(0, 1.16fr) minmax(20rem, 0.84fr);
+  min-height: 34rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 8px;
+  background: var(--gwb-surface-strong);
+  box-shadow: var(--gwb-shadow);
+  overflow: hidden;
+}
+
+.random-cloud-figure {
+  position: relative;
+  min-height: 32rem;
+  margin: 0;
+  background: #071521;
+}
+
+.random-cloud-figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 32rem;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.random-cloud-panel {
+  padding: clamp(1.1rem, 3vw, 2.2rem);
+}
+
+.random-cloud-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.random-cloud-meta span {
+  padding: 0.24rem 0.56rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 999px;
+  color: var(--gwb-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.random-cloud-panel h2 {
+  margin: 0;
+  color: var(--gwb-ink);
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1.15;
+}
+
+.random-cloud-summary {
+  margin: 0.85rem 0 1.2rem;
+  color: var(--gwb-muted);
+  line-height: 1.75;
+}
+
+.random-cloud-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+  margin: 0 0 1.2rem;
+}
+
+.random-cloud-fields div {
+  padding: 0.7rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--gwb-surface) 76%, transparent);
+}
+
+.random-cloud-fields dt {
+  color: var(--gwb-muted);
+  font-size: 0.75rem;
+}
+
+.random-cloud-fields dd {
+  margin: 0.2rem 0 0;
+  color: var(--gwb-ink);
+  font-weight: 700;
+}
+
+.random-cloud-notes {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.random-cloud-notes h3 {
+  margin: 0 0 0.24rem;
+  color: var(--gwb-accent);
+  font-size: 0.95rem;
+}
+
+.random-cloud-notes p {
+  margin: 0;
+  color: var(--gwb-muted);
+  line-height: 1.68;
+}
+
+.random-cloud-source {
+  margin-top: 1.2rem;
+}
+
+.home-random {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 860px) {
+  .random-cloud-hero,
+  .random-cloud-viewer {
+    grid-template-columns: 1fr;
+  }
+
+  .random-cloud-stat {
+    min-width: 0;
+  }
+
+  .random-cloud-figure,
+  .random-cloud-figure img {
+    min-height: 22rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .random-cloud-fields {
+    grid-template-columns: 1fr;
+  }
+}

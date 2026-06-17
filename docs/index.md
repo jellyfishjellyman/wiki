@@ -215,6 +215,10 @@ hide:
       <h2>云是天空的水母，水母是海中的云。</h2>
       <p>在天空里看见水母，在海水里看见云。</p>
       <button class="home-search" type="button" onclick="document.querySelector('.md-search__input')?.focus()">搜索整个 Wiki</button>
+      <div class="home-links">
+        <a class="home-random" href="clouds/random-cloud/">随机云图</a>
+        <a href="clouds/china-cloud-atlas/plate-catalog/">中国云图清单</a>
+      </div>
     </div>
 
     <div class="home-symbols">
