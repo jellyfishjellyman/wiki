@@ -101,9 +101,6 @@ nav:
   - 水母:
       - jellyfish/index.md
       - 海月水母: jellyfish/moon-jellyfish.md
-  - 卡比:
-      - kirby/index.md
-      - 游戏作品: kirby/games.md
 
 markdown_extensions:
   - admonition
