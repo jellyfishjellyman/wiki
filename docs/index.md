@@ -32,7 +32,7 @@ hide:
       radial-gradient(circle at 18% 58%, rgba(4, 18, 42, 0.58), rgba(4, 18, 42, 0.2) 34%, rgba(4, 18, 42, 0) 56%),
       linear-gradient(90deg, rgba(6, 20, 44, 0.68), rgba(11, 36, 63, 0.18) 43%, rgba(8, 28, 52, 0.14)),
       linear-gradient(180deg, rgba(3, 12, 30, 0.08), rgba(3, 14, 28, 0.28)),
-      url("assets/images/home/cloud-jellyfish-bg.png");
+      url("assets/images/home/cloud-jellyfish-bg.webp");
     background-position: center;
     background-size: cover;
   }
@@ -42,7 +42,7 @@ hide:
       radial-gradient(circle at 18% 58%, rgba(0, 8, 24, 0.64), rgba(0, 8, 24, 0.24) 34%, rgba(0, 8, 24, 0) 56%),
       linear-gradient(90deg, rgba(1, 9, 24, 0.74), rgba(8, 30, 56, 0.2) 44%, rgba(5, 18, 40, 0.18)),
       linear-gradient(180deg, rgba(0, 5, 18, 0.1), rgba(0, 7, 18, 0.34)),
-      url("assets/images/home/cloud-jellyfish-bg.png");
+      url("assets/images/home/cloud-jellyfish-bg.webp");
     background-position: center;
     background-size: cover;
     color: #edf8fb;
