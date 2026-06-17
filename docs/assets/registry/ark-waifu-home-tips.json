@@ -1,32 +1,88 @@
 {
   "version": 1,
   "lines": {
-    "load": ["欢迎来到 GWB Wiki。"],
-    "relax": ["我在这里看云。"],
-    "click": ["需要搜索资料的话，可以点上面的搜索框。"],
+    "load": ["欢迎来到 GWB Wiki。", "今天也适合抬头看云。"],
+    "relax": ["我在这里看云。", "这片海和天空的边界有点模糊。"],
+    "click": ["我在听。", "需要搜索资料的话，可以点上面的搜索框。", "别点太急，云也要慢慢看。"],
     "error": ["看板娘资源暂时没有加载成功。"]
   },
   "rules": [
     {
       "event": "load",
-      "text": ["欢迎来到 GWB Wiki。"]
+      "text": ["欢迎来到 GWB Wiki。", "今天也适合抬头看云。"],
+      "cooldownMs": 12000
+    },
+    {
+      "selector": ".md-logo, .md-header__title",
+      "event": "mouseenter",
+      "text": ["回到首页的话，从这里走。", "GWB Wiki，正在漂浮。"],
+      "cooldownMs": 8000
+    },
+    {
+      "selector": ".md-search",
+      "event": "mouseenter",
+      "text": ["想找哪一种云？输入关键词试试。", "搜索框已经待命。"],
+      "action": "touch",
+      "cooldownMs": 8000
+    },
+    {
+      "selector": ".md-search__input",
+      "event": "focus",
+      "text": ["我会帮你盯着搜索结果。", "关键词越准，云层越清楚。"],
+      "action": "touch",
+      "cooldownMs": 7000
     },
     {
       "selector": ".home-search",
       "event": "mouseenter",
-      "text": ["这里可以搜索整个 Wiki。"],
-      "action": "touch"
+      "text": ["这里可以搜索整个 Wiki。", "找不到的时候，先从这里开始。"],
+      "action": "touch",
+      "cooldownMs": 7000
     },
     {
-      "selector": ".home-links a",
+      "selector": ".home-random",
       "event": "mouseenter",
-      "text": ["这是一条快速入口。"]
+      "text": ["随机云图，适合抽一朵今天的云。", "要不要看看下一片天空？"],
+      "action": "special",
+      "cooldownMs": 7000
     },
     {
-      "selector": ".home-card",
+      "selector": ".home-links a[href*='china-cloud-atlas']",
       "event": "mouseenter",
-      "text": ["云和水母都在这里。"],
-      "action": "touch"
+      "text": ["中国云图清单，像一本天空索引。", "这里适合认真翻资料。"],
+      "cooldownMs": 7000
+    },
+    {
+      "selector": ".home-links a:not(.home-random)",
+      "event": "mouseenter",
+      "text": ["这是一条快速入口。", "这边也能过去。"],
+      "cooldownMs": 7000
+    },
+    {
+      "selector": ".home-card[href='clouds/']",
+      "event": "mouseenter",
+      "text": ["进入云的图谱。", "卷云、积云、层云，都在里面。"],
+      "action": "touch",
+      "cooldownMs": 8000
+    },
+    {
+      "selector": ".home-card[href='jellyfish/']",
+      "event": "mouseenter",
+      "text": ["进入水母花园。", "这边是海里的云。"],
+      "action": "touch",
+      "cooldownMs": 8000
+    },
+    {
+      "selector": ".md-source",
+      "event": "mouseenter",
+      "text": ["这里可以去 GitHub 看源码。", "代码也会留下云的轨迹。"],
+      "cooldownMs": 10000
+    },
+    {
+      "selector": ".md-header__button[for^='__palette']",
+      "event": "mouseenter",
+      "text": ["白天和夜晚，云的样子会变。"],
+      "cooldownMs": 15000
     }
   ]
 }
