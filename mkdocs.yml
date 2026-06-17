@@ -100,7 +100,15 @@ nav:
               - 第 301-314 页: clouds/china-cloud-atlas/pages-301-314.md
   - 水母:
       - jellyfish/index.md
+      - 基础概念: jellyfish/basics.md
+      - 形态结构: jellyfish/anatomy.md
+      - 生活史: jellyfish/life-cycle.md
+      - 分类与相似类群: jellyfish/classification.md
+      - 代表物种: jellyfish/species.md
       - 海月水母: jellyfish/moon-jellyfish.md
+      - 生态影响与公众观察: jellyfish/ecology.md
+      - 蜇伤处理: jellyfish/stings.md
+      - 资料来源与校订状态: jellyfish/references.md
 
 markdown_extensions:
   - admonition
