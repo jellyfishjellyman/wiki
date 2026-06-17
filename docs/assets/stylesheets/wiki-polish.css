@@ -285,6 +285,11 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.home-shell {
+  position: relative;
+  z-index: 6;
+}
+
 .ark-waifu-widget {
   right: auto !important;
   left: 16px !important;
