@@ -44,10 +44,13 @@ nav:
       - 云与天气现象: clouds/weather-phenomena.md
       - 云的观测方法: clouds/observation.md
       - 云图图例库: clouds/gallery.md
+      - 图版索引: clouds/plate-indexes.md
       - 术语表: clouds/glossary.md
       - 参考资料与来源说明: clouds/references.md
       - 资料档案:
           - 云的类型（旧页）: clouds/cloud-types.md
+          - EPUB 资料索引: clouds/epub-source-index.md
+          - EPUB 图文案例索引: clouds/epub-case-index.md
           - 《中国云图》档案:
               - clouds/china-cloud-atlas/index.md
               - 前置页与目录: clouds/china-cloud-atlas/front-matter.md
