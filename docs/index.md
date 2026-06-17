@@ -19,7 +19,7 @@ hide:
   }
 
   .md-typeset {
-    color: #16333a;
+    color: #eef7fb;
   }
 
   .home-hero {
@@ -29,25 +29,27 @@ hide:
     margin: 0 calc(50% - 50vw);
     padding: clamp(3.5rem, 8vw, 7rem) clamp(1.2rem, 8vw, 7rem) clamp(2rem, 5vw, 4rem);
     background:
-      radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.95), transparent 20%),
-      radial-gradient(circle at 74% 28%, rgba(177, 227, 236, 0.55), transparent 24%),
-      radial-gradient(circle at 78% 78%, rgba(214, 202, 235, 0.34), transparent 26%),
-      linear-gradient(145deg, #f8fcff 0%, #eaf8fb 42%, #f6fbf7 100%);
+      linear-gradient(90deg, rgba(9, 22, 45, 0.58), rgba(18, 54, 83, 0.18) 48%, rgba(8, 30, 54, 0.42)),
+      linear-gradient(180deg, rgba(3, 12, 30, 0.18), rgba(3, 14, 28, 0.24)),
+      url("assets/images/home/cloud-jellyfish.png");
+    background-position: center;
+    background-size: cover;
   }
 
   [data-md-color-scheme="slate"] .home-hero {
     background:
-      radial-gradient(circle at 18% 18%, rgba(201, 242, 244, 0.16), transparent 20%),
-      radial-gradient(circle at 74% 28%, rgba(81, 166, 185, 0.24), transparent 24%),
-      radial-gradient(circle at 78% 78%, rgba(156, 131, 199, 0.22), transparent 26%),
-      linear-gradient(145deg, #10202b 0%, #172d37 50%, #102a2b 100%);
+      linear-gradient(90deg, rgba(5, 12, 28, 0.68), rgba(15, 42, 70, 0.2) 48%, rgba(5, 18, 40, 0.5)),
+      linear-gradient(180deg, rgba(0, 5, 18, 0.16), rgba(0, 7, 18, 0.3)),
+      url("assets/images/home/cloud-jellyfish.png");
+    background-position: center;
+    background-size: cover;
     color: #edf8fb;
   }
 
   .home-shell {
     display: grid;
-    grid-template-columns: minmax(18rem, 42rem) minmax(20rem, 35rem);
-    align-items: center;
+    grid-template-columns: minmax(18rem, 38rem) minmax(18rem, 28rem);
+    align-items: end;
     gap: clamp(2rem, 7vw, 7rem);
     max-width: 76rem;
     min-height: calc(100vh - 9rem);
@@ -56,18 +58,20 @@ hide:
 
   .home-hero h2 {
     margin: 0;
-    max-width: 9em;
-    font-size: clamp(3.1rem, 8vw, 7.2rem);
-    line-height: 0.98;
+    max-width: 11em;
+    font-size: clamp(2.8rem, 6.5vw, 6.4rem);
+    line-height: 1.08;
     letter-spacing: 0;
+    text-shadow: 0 18px 50px rgba(0, 17, 48, 0.32);
   }
 
   .home-hero p {
-    max-width: 34rem;
+    max-width: 31rem;
     margin: 1.25rem 0 0;
-    color: var(--md-default-fg-color--light);
+    color: rgba(239, 248, 252, 0.86);
     font-size: clamp(1rem, 1.45vw, 1.24rem);
     line-height: 1.9;
+    text-shadow: 0 10px 32px rgba(0, 17, 48, 0.28);
   }
 
   .home-symbols {
@@ -81,12 +85,12 @@ hide:
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 12rem;
+    min-height: 10.5rem;
     padding: clamp(1.1rem, 2vw, 1.7rem);
-    border: 1px solid rgba(87, 148, 164, 0.22);
+    border: 1px solid rgba(233, 247, 252, 0.3);
     border-radius: 22px;
-    background: rgba(255, 255, 255, 0.64);
-    box-shadow: 0 24px 70px rgba(54, 104, 118, 0.14);
+    background: rgba(7, 29, 54, 0.34);
+    box-shadow: 0 24px 70px rgba(0, 15, 38, 0.18);
     color: inherit;
     text-decoration: none;
     backdrop-filter: blur(18px);
@@ -94,14 +98,14 @@ hide:
   }
 
   [data-md-color-scheme="slate"] .home-card {
-    background: rgba(16, 33, 42, 0.62);
-    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.2);
+    background: rgba(7, 24, 47, 0.44);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
   }
 
   .home-card:hover {
-    border-color: rgba(41, 137, 160, 0.5);
+    border-color: rgba(255, 255, 255, 0.74);
     transform: translateY(-3px);
-    box-shadow: 0 30px 80px rgba(54, 104, 118, 0.18);
+    box-shadow: 0 30px 80px rgba(0, 15, 38, 0.24);
   }
 
   .home-card svg {
@@ -114,12 +118,14 @@ hide:
   .home-card h3 {
     margin: 0;
     font-size: 1.35rem;
+    color: #ffffff;
   }
 
   .home-card p {
     margin: 0.35rem 0 0;
     max-width: 15rem;
     font-size: 0.92rem;
+    color: rgba(239, 248, 252, 0.78);
   }
 
   .home-links {
@@ -135,14 +141,15 @@ hide:
     min-height: 2.7rem;
     margin-top: 1.35rem;
     padding: 0.45rem 1rem;
-    border: 1px solid rgba(56, 138, 158, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.38);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.68);
-    color: var(--md-primary-fg-color);
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
     font: inherit;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 14px 34px rgba(54, 104, 118, 0.12);
+    box-shadow: 0 14px 34px rgba(0, 15, 38, 0.18);
+    backdrop-filter: blur(18px);
   }
 
   .home-search:hover,
@@ -173,7 +180,8 @@ hide:
   @media (max-width: 720px) {
     .home-hero {
       min-height: auto;
-      padding-top: 3rem;
+      padding-top: 3.2rem;
+      background-position: center top;
     }
 
     .home-shell {
@@ -186,7 +194,7 @@ hide:
     }
 
     .home-card {
-      min-height: 12rem;
+      min-height: 10rem;
       align-items: flex-start;
       flex-direction: column;
     }
@@ -201,8 +209,8 @@ hide:
 <section class="home-hero">
   <div class="home-shell">
     <div>
-      <h2>云在高处成形，水母在海里发光。</h2>
-      <p>一个收集天空与海水的私人资料库。这里不急着解释世界，只把云的形态、天气的暗示、水母的透明身体和缓慢漂游，一点点安放好。</p>
+      <h2>云是天空的水母，水母是海中的云。</h2>
+      <p>这个站把天空和海水放在同一条柔软的线上：观察云的生成、形态与天气暗示，也记录水母的透明身体、漂游方式和生命循环。</p>
       <button class="home-search" type="button" onclick="document.querySelector('.md-search__input')?.focus()">搜索整个 Wiki</button>
     </div>
 
@@ -210,7 +218,7 @@ hide:
       <a class="home-card" href="clouds/">
         <div>
           <h3>云</h3>
-          <p>云形、图版、观测和天气线索。</p>
+          <p>天空里的漂浮生命：云形、图版、观测和天气线索。</p>
         </div>
         <svg viewBox="0 0 320 180" role="img" aria-label="标志性的云">
           <defs>
@@ -228,7 +236,7 @@ hide:
       <a class="home-card" href="jellyfish/">
         <div>
           <h3>水母</h3>
-          <p>伞盖、触手、生活史和观察笔记。</p>
+          <p>海水里的流动云影：伞盖、触手、生活史和观察笔记。</p>
         </div>
         <svg viewBox="0 0 320 180" role="img" aria-label="标志性的水母">
           <defs>
