@@ -2,6 +2,7 @@ site/
 .cache/
 tmp/
 cloud/
+jellyfish/
 docs/assets/images/clouds/china-cloud-atlas/*.png
 __pycache__/
 *.py[cod]
