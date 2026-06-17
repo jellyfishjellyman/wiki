@@ -285,6 +285,18 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.ark-waifu-widget {
+  right: auto !important;
+  left: 16px !important;
+  bottom: 10px !important;
+}
+
+.ark-waifu-widget .ark-waifu-bubble {
+  right: auto !important;
+  left: 12px !important;
+  max-width: min(17rem, calc(100vw - 2rem));
+}
+
 @media (max-width: 860px) {
   .random-cloud-hero,
   .random-cloud-viewer {
@@ -302,6 +314,13 @@ body {
 }
 
 @media (max-width: 560px) {
+  .ark-waifu-widget {
+    width: 200px !important;
+    height: 300px !important;
+    left: 4px !important;
+    bottom: 4px !important;
+  }
+
   .random-cloud-fields {
     grid-template-columns: 1fr;
   }

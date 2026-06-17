@@ -123,6 +123,7 @@ markdown_extensions:
 extra_javascript:
   - assets/javascripts/lazy-images.js
   - assets/javascripts/random-cloud.js
+  - assets/javascripts/ark-waifu-home.js
 
 extra_css:
   - assets/stylesheets/wiki-polish.css
