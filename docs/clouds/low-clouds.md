@@ -1,7 +1,7 @@
 # 低云
 
-!!! note "第一批扩展范围"
-    本页把低云族从概览扩展为主题索引和细分入口，已系统吸收《中国云图》低云图版中积云、积雨云部分的图 2-52，并连接到层积云、层云、雨层云图版档案。层积云、层云、雨层云的逐图反向融合将在下一批完成；本页先保留结构和关键识别框架。
+!!! note "低云入口页"
+    本页现在作为低云图鉴入口：先用高度、云体结构、透光性和降水状态建立判断路径，再从表格直接进入具体云类词条。旧有专题页和《中国云图》档案页继续保留为来源索引。
 
 ## 定义和范围
 
@@ -9,23 +9,29 @@
 
 低云多由微小水滴组成；在较厚或垂直发展旺盛的云体内，中上部可含过冷水滴、冰晶、雪晶，甚至形成混合云结构。积雨云虽然云底属低云，但成熟时可贯穿低、中、高多个高度层，因此它在天气意义上不能只按“低”理解。
 
+## 低云识别思路
+
+1. 先看结构：单体凸起多从积云、积雨云入手；片状团块多从层积云入手；均匀低云幕多从层云、雨层云入手。
+2. 再看发展：云顶浅薄是淡积云，强烈高耸是浓积云，云顶冰晶化后进入积雨云阶段。
+3. 再看透光和降水：层积云按透光、蔽光和积云性来源细分；连续性降水优先考虑雨层云；雾状低云但不接地多为层云。
+
 ## 低云分类表
 
 | 云属 | 云类 | 简写 | 《中国云图》常用云码 | 识别关键词 | 主题页 / 图版 |
 | --- | --- | --- | --- | --- | --- |
-| 积云 | 淡积云 | Cu hum | CL1 | 小而较完整，云底平，云顶圆弧凸起，水平宽度大于垂直厚度 | [积云与积雨云](cumulus-cumulonimbus.md)、[图 2-16](china-cloud-atlas/plates/low-clouds-cumulus.md) |
-| 积云 | 碎积云 | Fc | CL1 | 破碎、不规则、形状多变，可发展成淡积云 | [积云与积雨云](cumulus-cumulonimbus.md)、[图 6-15](china-cloud-atlas/plates/low-clouds-cumulus.md) |
-| 积云 | 浓积云 | Cu cong | CL2 | 垂直发展旺盛，花椰菜状云顶，云底较暗 | [积云与积雨云](cumulus-cumulonimbus.md)、[图 17-26](china-cloud-atlas/plates/low-clouds-cumulus.md) |
-| 积雨云 | 秃积雨云 | Cb calv | CL3 | 云顶开始冰晶化，轮廓由清晰转模糊，尚未明显鬃状 | [积云与积雨云](cumulus-cumulonimbus.md)、[图 27-28](china-cloud-atlas/plates/low-clouds-cumulonimbus.md) |
-| 积雨云 | 鬃积雨云 | Cb cap | CL9 | 云顶毛丝状、鬃状或砧状，常伴雷雨、冰雹、大风 | [积云与积雨云](cumulus-cumulonimbus.md)、[图 29-52](china-cloud-atlas/plates/low-clouds-cumulonimbus.md) |
-| 层积云 | 透光层积云 | Sc tra | CL5 | 低空成层或成片，云块间隙或薄处可透光 | [层状云](layered-clouds.md)、[图 56-59](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
-| 层积云 | 蔽光层积云 | Sc op | CL5 | 云层较厚，遮蔽日月，灰暗 | [层状云](layered-clouds.md)、[图 60-62](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
-| 层积云 | 积云性层积云 | Sc cug | CL4 | 由积云扩展或衰退形成，保留积状起伏 | [层状云](layered-clouds.md)、[图 53-55](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
+| 积云 | [淡积云](cumulus-humilis.md) | Cu hum | CL1 | 小而较完整，云底平，云顶圆弧凸起，水平宽度大于垂直厚度 | [图 2-16](china-cloud-atlas/plates/low-clouds-cumulus.md) |
+| 积云 | [碎积云](fractocumulus.md) | Fc | CL1 | 破碎、不规则、形状多变，可发展成淡积云 | [图 6-15](china-cloud-atlas/plates/low-clouds-cumulus.md) |
+| 积云 | [浓积云](cumulus-congestus.md) | Cu cong | CL2 | 垂直发展旺盛，花椰菜状云顶，云底较暗 | [图 17-26](china-cloud-atlas/plates/low-clouds-cumulus.md) |
+| 积雨云 | [秃积雨云](cumulonimbus-calvus.md) | Cb calv | CL3 | 云顶开始冰晶化，轮廓由清晰转模糊，尚未明显鬃状 | [图 27-28](china-cloud-atlas/plates/low-clouds-cumulonimbus.md) |
+| 积雨云 | [鬃积雨云](cumulonimbus-capillatus.md) | Cb cap | CL9 | 云顶毛丝状、鬃状或砧状，常伴雷雨、冰雹、大风 | [图 29-52](china-cloud-atlas/plates/low-clouds-cumulonimbus.md) |
+| 层积云 | [透光层积云](stratocumulus-translucidus.md) | Sc tra | CL5 | 低空成层或成片，云块间隙或薄处可透光 | [图 56-59](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
+| 层积云 | [蔽光层积云](stratocumulus-opacus.md) | Sc op | CL5 | 云层较厚，遮蔽日月，灰暗 | [图 60-62](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
+| 层积云 | [积云性层积云](stratocumulus-cumulogenitus.md) | Sc cug | CL4 | 由积云扩展或衰退形成，保留积状起伏 | [图 53-55](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
 | 层积云 | 堡状层积云 | Sc cast | 待校订 | 顶部有城堡状突起，提示低层或中低层不稳定 | [特殊云形](special-forms.md)、[层积云图版](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
 | 层积云 | 荚状层积云 | Sc lent | 待校订 | 透镜状、豆荚状，常与地形波或稳定气流有关 | [特殊云形](special-forms.md)、[层积云图版](china-cloud-atlas/plates/low-clouds-stratocumulus.md) |
-| 层云 | 层云 | St | CL6 | 低而均匀的灰色云层，类似不接地的雾 | [层状云](layered-clouds.md)、[图 64-67](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
-| 层云 | 碎层云 | Fs | CL6 | 破碎低云，常贴近山坡、海岸或层云消散过程 | [层状云](layered-clouds.md)、[图 68](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
-| 雨层云 | 雨层云 | Ns | CL7 / CM2 | 厚而暗的大范围降水云层，常带连续性降水 | [层状云](layered-clouds.md)、[图 69-75](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
+| 层云 | [层云](stratus.md) | St | CL6 | 低而均匀的灰色云层，类似不接地的雾 | [图 64-67](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
+| 层云 | [碎层云](fractostratus.md) | Fs | CL6 | 破碎低云，常贴近山坡、海岸或层云消散过程 | [图 68](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
+| 雨层云 | [雨层云](nimbostratus.md) | Ns | CL7 / CM2 | 厚而暗的大范围降水云层，常带连续性降水 | [图 69-75](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
 | 雨层云 | 碎雨云 | Fn | CL7 / CM2 | 降水云底下方破碎湿云，常随雨雪出现 | [层状云](layered-clouds.md)、[图 69、70、74](china-cloud-atlas/plates/low-clouds-stratus-nimbostratus.md) |
 
 ## 低云的共同识别维度

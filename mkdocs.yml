@@ -1,8 +1,8 @@
 site_name: GWB Wiki
 site_url: https://wiki.gwbblog.top/
 site_description: 云是天空的水母，水母是海中的云。
-repo_url: https://github.com/gwbblog/wiki
-repo_name: gwbblog/wiki
+repo_url: https://github.com/jellyfishjellyman/wiki
+repo_name: jellyfishjellyman/wiki
 
 theme:
   name: material
@@ -36,9 +36,38 @@ nav:
       - 随机云图: clouds/random-cloud.md
       - 云的基础概念: clouds/basics.md
       - 云的分类体系: clouds/classification.md
-      - 低云: clouds/low-clouds.md
-      - 中云: clouds/mid-clouds.md
-      - 高云: clouds/high-clouds.md
+      - 低云:
+          - 低云总览: clouds/low-clouds.md
+          - 积云类: clouds/cumulus-cumulonimbus.md
+          - 淡积云: clouds/cumulus-humilis.md
+          - 碎积云: clouds/fractocumulus.md
+          - 浓积云: clouds/cumulus-congestus.md
+          - 积雨云类: clouds/cumulus-cumulonimbus.md
+          - 秃积雨云: clouds/cumulonimbus-calvus.md
+          - 鬃积雨云: clouds/cumulonimbus-capillatus.md
+          - 层积云类: clouds/layered-clouds.md
+          - 透光层积云: clouds/stratocumulus-translucidus.md
+          - 蔽光层积云: clouds/stratocumulus-opacus.md
+          - 积云性层积云: clouds/stratocumulus-cumulogenitus.md
+          - 层云与雨层云: clouds/layered-clouds.md
+          - 层云: clouds/stratus.md
+          - 碎层云: clouds/fractostratus.md
+          - 雨层云: clouds/nimbostratus.md
+      - 中云:
+          - 中云总览: clouds/mid-clouds.md
+          - 高层云: clouds/mid-clouds.md#高层云
+          - 高积云: clouds/mid-clouds.md#高积云
+      - 高云:
+          - 高云总览: clouds/high-clouds.md
+          - 卷云: clouds/high-clouds.md#卷云
+          - 毛卷云: clouds/cirrus-fibratus.md
+          - 密卷云: clouds/cirrus-spissatus.md
+          - 伪卷云: clouds/cirrus-spissatus-cumulonimbogenitus.md
+          - 钩卷云: clouds/cirrus-uncinus.md
+          - 卷层云: clouds/high-clouds.md#卷层云
+          - 毛卷层云: clouds/cirrostratus-fibratus.md
+          - 薄幕卷层云: clouds/cirrostratus-nebulosus.md
+          - 卷积云: clouds/cirrocumulus.md
       - 积云与积雨云: clouds/cumulus-cumulonimbus.md
       - 层状云: clouds/layered-clouds.md
       - 特殊云形: clouds/special-forms.md

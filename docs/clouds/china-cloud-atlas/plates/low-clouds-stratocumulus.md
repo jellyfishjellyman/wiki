@@ -5,6 +5,8 @@
 !!! note "校订状态"
     本页以 OCR 文字为底稿，并对照原页图像校订标题、代码、拍摄字段和说明文字。图 53-55 的代码以原页图像可见的 `CL4` 为准；图 56-63 的代码以 `CL5` 为准。
 
+对应图鉴词条：[积云性层积云](../../stratocumulus-cumulogenitus.md) · [透光层积云](../../stratocumulus-translucidus.md) · [蔽光层积云](../../stratocumulus-opacus.md) · [低云总览](../../low-clouds.md)
+
 ## 图版列表
 
 | 图号 | 云类 | 代码 | PDF 页 | 主要内容 |

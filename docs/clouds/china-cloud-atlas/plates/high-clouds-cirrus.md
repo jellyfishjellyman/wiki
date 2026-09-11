@@ -5,6 +5,8 @@
 !!! note "校订状态"
     本页以分页文本和原页图像共同整理。图 117-142 的标题、代码、拍摄字段和说明文字已按可辨原页图像校订；图 136 原页未列出拍摄方向。
 
+对应图鉴词条：[毛卷云](../../cirrus-fibratus.md) · [密卷云](../../cirrus-spissatus.md) · [伪卷云](../../cirrus-spissatus-cumulonimbogenitus.md) · [钩卷云](../../cirrus-uncinus.md) · [高云总览](../../high-clouds.md)
+
 ## 图版列表
 
 | 图号 | 云类 | 代码 | PDF 页 | 主要内容 |

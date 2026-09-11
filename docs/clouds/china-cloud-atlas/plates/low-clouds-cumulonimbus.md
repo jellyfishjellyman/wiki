@@ -5,6 +5,8 @@
 !!! note "校订状态"
     本页以 OCR 文字和原页图像共同校订。图 29 原 OCR 未识别出文本，已根据原页图像人工转写。图 19-38 的主要图名、代码、地点、时间、方向、拍摄者和说明已按可辨原页图像校订。
 
+对应图鉴词条：[浓积云](../../cumulus-congestus.md) · [秃积雨云](../../cumulonimbus-calvus.md) · [鬃积雨云](../../cumulonimbus-capillatus.md) · [低云总览](../../low-clouds.md)
+
 ## 图版列表
 
 | 图号 | 云类 | 代码 | PDF 页 | 主要内容 |

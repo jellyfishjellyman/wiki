@@ -5,6 +5,8 @@
 !!! note "校订状态"
     本页以 OCR 文本和原页图像共同整理。`CH6`、`CH7`、`CH8`、`CH9` 等代码、拍摄字段和说明文字已按可辨原页图像校订。
 
+对应图鉴词条：[毛卷层云](../../cirrostratus-fibratus.md) · [薄幕卷层云](../../cirrostratus-nebulosus.md) · [卷积云](../../cirrocumulus.md) · [高云总览](../../high-clouds.md)
+
 ## 图版列表
 
 | 图号 | 云类 | 代码 | PDF 页 | 主要内容 |
