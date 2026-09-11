@@ -11,10 +11,18 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.footer
+    - navigation.tracking
     - navigation.top
+    - header.autohide
     - search.suggest
     - search.highlight
+    - search.share
+    - toc.follow
     - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
   palette:
     - scheme: default
       primary: teal
@@ -55,16 +63,14 @@ nav:
           - 雨层云: clouds/nimbostratus.md
       - 中云:
           - 中云总览: clouds/mid-clouds.md
-          - 高层云: clouds/mid-clouds.md#高层云
-          - 高积云: clouds/mid-clouds.md#高积云
+          - 高层云图版: clouds/china-cloud-atlas/plates/mid-clouds-altostratus.md
+          - 高积云图版: clouds/china-cloud-atlas/plates/mid-clouds-altocumulus.md
       - 高云:
           - 高云总览: clouds/high-clouds.md
-          - 卷云: clouds/high-clouds.md#卷云
           - 毛卷云: clouds/cirrus-fibratus.md
           - 密卷云: clouds/cirrus-spissatus.md
           - 伪卷云: clouds/cirrus-spissatus-cumulonimbogenitus.md
           - 钩卷云: clouds/cirrus-uncinus.md
-          - 卷层云: clouds/high-clouds.md#卷层云
           - 毛卷层云: clouds/cirrostratus-fibratus.md
           - 薄幕卷层云: clouds/cirrostratus-nebulosus.md
           - 卷积云: clouds/cirrocumulus.md
@@ -73,6 +79,7 @@ nav:
       - 特殊云形: clouds/special-forms.md
       - 云与天气现象: clouds/weather-phenomena.md
       - 云的观测方法: clouds/observation.md
+      - 云观测记录: clouds/observation-record.md
       - 云图图例库: clouds/gallery.md
       - 图版索引: clouds/plate-indexes.md
       - 术语表: clouds/glossary.md
@@ -152,6 +159,7 @@ markdown_extensions:
 extra_javascript:
   - assets/javascripts/lazy-images.js
   - assets/javascripts/random-cloud.js
+  - assets/javascripts/observation-record.js
   - assets/javascripts/ark-waifu-home.js
 
 extra_css:

@@ -73,6 +73,20 @@ body {
   border-radius: 8px;
 }
 
+.md-typeset a:focus-visible,
+.md-typeset button:focus-visible,
+.md-typeset input:focus-visible,
+.md-typeset select:focus-visible,
+.md-typeset textarea:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--gwb-accent) 58%, #fff);
+  outline-offset: 3px;
+}
+
+.md-typeset table:not([class]) {
+  display: block;
+  overflow-x: auto;
+}
+
 .random-cloud-page {
   margin: -1.4rem calc(50% - 50vw) 0;
   padding: clamp(1.2rem, 3vw, 2.8rem) clamp(1rem, 5vw, 4.5rem) 4rem;
@@ -279,6 +293,191 @@ body {
 
 .random-cloud-source {
   margin-top: 1.2rem;
+}
+
+.observation-tool {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(19rem, 0.92fr);
+  margin: 2rem 0 2.4rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 8px;
+  background: var(--gwb-surface-strong);
+  box-shadow: var(--gwb-shadow);
+  overflow: hidden;
+}
+
+.observation-form,
+.observation-preview {
+  min-width: 0;
+  padding: clamp(1.1rem, 3vw, 2rem);
+}
+
+.observation-form {
+  border-right: 1px solid var(--gwb-line);
+}
+
+.observation-form-heading,
+.observation-preview-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.observation-form-heading h2 {
+  margin: 0;
+  color: var(--gwb-ink);
+  font-size: clamp(1.45rem, 3vw, 2.1rem);
+}
+
+.observation-kicker {
+  margin: 0 0 0.25rem;
+  color: var(--gwb-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.observation-status,
+.observation-preview-top > span {
+  color: var(--gwb-muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.observation-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin-top: 1.6rem;
+}
+
+.observation-fields label {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--gwb-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.observation-fields input,
+.observation-fields select,
+.observation-fields textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid var(--gwb-line);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--gwb-surface) 78%, transparent);
+  color: var(--gwb-ink);
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 0.65rem 0.7rem;
+}
+
+.observation-fields textarea {
+  resize: vertical;
+}
+
+.observation-wide {
+  grid-column: 1 / -1;
+}
+
+.observation-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.observation-actions button {
+  min-height: 2.55rem;
+  border-radius: 6px;
+  padding: 0.45rem 0.85rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.observation-primary {
+  border: 0;
+  background: var(--gwb-accent);
+  color: #fff;
+}
+
+.observation-secondary,
+.observation-quiet {
+  border: 1px solid var(--gwb-line);
+  background: transparent;
+  color: var(--gwb-ink);
+}
+
+.observation-quiet {
+  margin-left: auto;
+  border-color: transparent;
+  color: var(--gwb-muted);
+}
+
+.observation-preview {
+  background: color-mix(in srgb, var(--gwb-surface) 68%, transparent);
+}
+
+.observation-preview pre {
+  min-height: 26rem;
+  margin: 1.35rem 0 0;
+  padding: 1rem;
+  border: 1px solid var(--gwb-line);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--md-code-bg-color) 82%, transparent);
+  color: var(--gwb-ink);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 760px) {
+  .observation-tool {
+    grid-template-columns: 1fr;
+  }
+
+  .observation-form {
+    border-right: 0;
+    border-bottom: 1px solid var(--gwb-line);
+  }
+}
+
+@media (max-width: 520px) {
+  .observation-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .observation-wide {
+    grid-column: auto;
+  }
+
+  .observation-quiet {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
 
 .home-random {
