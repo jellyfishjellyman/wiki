@@ -17,6 +17,12 @@ Open <http://127.0.0.1:8000/>.
 python -m mkdocs build
 ```
 
+Before building after adding or correcting China Cloud Atlas figure entries, refresh the random cloud catalog:
+
+```powershell
+python tools/build_random_cloud_catalog.py
+```
+
 Cloudflare Pages settings:
 
 - Build command: `pip install -r requirements.txt && mkdocs build`
