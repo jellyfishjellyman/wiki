@@ -212,6 +212,7 @@ hide:
 <section class="home-hero">
   <div class="home-shell">
     <div>
+      <p class="home-eyebrow"><span>GWB</span> / SKY &amp; SEA ARCHIVE</p>
       <h2>云是天空的水母，水母是海中的云。</h2>
       <p>在天空里看见水母，在海水里看见云。</p>
       <button class="home-search" type="button" onclick="document.querySelector('.md-search__input')?.focus()">搜索整个 Wiki</button>
@@ -219,14 +220,20 @@ hide:
         <a class="home-random" href="clouds/random-cloud/">随机云图</a>
         <a href="clouds/china-cloud-atlas/plate-catalog/">中国云图清单</a>
       </div>
+      <div class="home-footnote">
+        <span>观察 · 分类 · 记录</span>
+        <span>从一张云图开始</span>
+      </div>
     </div>
 
     <div class="home-symbols">
       <a class="home-card" href="clouds/">
+        <span class="home-card-index">01</span>
         <div>
           <h3>云</h3>
           <p>进入云的图谱</p>
         </div>
+        <span class="home-card-arrow" aria-hidden="true">↗</span>
         <svg viewBox="0 0 320 180" role="img" aria-label="标志性的云">
           <defs>
             <linearGradient id="cloud-fill" x1="0" x2="1" y1="0" y2="1">
@@ -241,10 +248,12 @@ hide:
       </a>
 
       <a class="home-card" href="jellyfish/">
+        <span class="home-card-index">02</span>
         <div>
           <h3>水母</h3>
           <p>进入水母花园</p>
         </div>
+        <span class="home-card-arrow" aria-hidden="true">↗</span>
         <svg viewBox="0 0 320 180" role="img" aria-label="标志性的水母">
           <defs>
             <linearGradient id="jelly-fill" x1="0" x2="1" y1="0" y2="1">

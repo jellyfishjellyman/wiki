@@ -9,7 +9,7 @@ hide:
 <section class="random-cloud-page" data-random-cloud-page>
   <div class="random-cloud-hero">
     <div class="random-cloud-copy">
-      <p class="random-cloud-kicker">随机云图服务</p>
+      <p class="random-cloud-kicker"><span>FIELD 01</span> / 随机云图档案</p>
       <h2>把一张云图当作入口。</h2>
       <p>随机抽取《中国云图》中的照片，先看图，再读它的名称、代码、位置、形成线索和识别特征。</p>
       <div class="random-cloud-actions">
@@ -19,7 +19,7 @@ hide:
     </div>
     <div class="random-cloud-stat">
       <span data-random-cloud-count>279 张精选图版</span>
-      <strong>Cloud Atlas</strong>
+      <strong>279 <small>PLATES</small></strong>
     </div>
   </div>
 
